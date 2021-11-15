@@ -1,4 +1,22 @@
-## Welcome to GitHub Pages
+# A survey on computational methods for MSI experiments
+*by Dan Guo, on 11/05/2021*
+
+## 1. What is Mass Specttrometry Imaging
+
+Mass Spectrometry Imaging (MSI) is a technique that detects spatially-resolved molecular compositions of samples, such as tissues. It collects mass spectra at thousands of locations in a raster pattern throughout a sample. A mass spectrum is a plot with *x-axis* as the mass-over-charge ratio (*m/z*) of ionized molecules and *y-axis* as their corresponding intensities. A location is refered as a *pixel*, and unlike natural images, a pixel in MSI is not represented by RGB values, but a mass spectrum instead. The plot of the intensities of a specific m/z across pixels is called an *ion image*.
+
+## 2. Computational goals in MSI
+
+The computational goals in MSI can be devided into three categories: pixel segmentation, m/z clustering, and image classfication.
+- *Pxiel segmentation*, segmenting pixels into segments of homogeneous molecular compositions using a single or multiple m/z.
+- *m/z clustering*, clsutering m/z into spatially-similar groups according to their ion images
+- *image classification*, classifying MSI into different classes, such as delineation of tumor tissues.
+
+## 3. Pixel segmentation
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/DanGuo1223/computationalMSI/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
