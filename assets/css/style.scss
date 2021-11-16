@@ -1,0 +1,38 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+	background: #FFFFFF;
+};
+
+header {
+	display: none;
+};
+
+footer {
+	display: none;
+};
+
+a {
+	color: #3C5A99;
+};
+
+h2 {
+	font-size: 24px;
+};
+
+h3 {
+        font-size: 21px;
+};
+
+h4 {
+        font-size: 18px;
+};
+
+#main_content_wrap {
+	background: #FFFFFF;
+	border-top: none;
+	border-bottom: none;
+};
