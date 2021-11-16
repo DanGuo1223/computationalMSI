@@ -29,6 +29,11 @@ Some methods were developed specifically for MSI segmentation:
 - [Spatial shrunken centroids segmentation](https://www.mcponline.org/article/S1535-9476(20)33611-2/fulltext) (Bemis *et al*., 2016 )
 - [Two-phase k-means and two-phase graph cuts](https://pubs.acs.org/doi/pdf/10.1021/acs.analchem.7b01758) (Dexter *et al*., 2017) attempts to reduce memory complexity by applying k-means or spectral clustering on a compressed dataset, which is obtained by adding the centers of k-means applied on a subset of pixels.
 
+A major drawback of those multivariate segmentation algorithm is their sensitivities to noisy m/z features. Some methods focus on data filtering/selection to improve segmentation quality:
+
+- [Data Filtering and Its Prioritization in Pipelines for Spatial Segmentation of Mass Spectrometry Imaging](https://pubs.acs.org/doi/abs/10.1021/acs.analchem.0c05242) (Guo *et al*., 2021). This paper incorporated [edge-preserving filtering](https://pubs.acs.org/doi/abs/10.1021/pr100734z) (Theodore *et al*., 2010), median filtering, and [guided filtering](https://ieeexplore.ieee.org/abstract/document/6319316) (He *et al*., 2013) into the segmentation pipeline before or after segmentation algorithm applied.
+
+- [Implications of Peak Selection in the Interpretation of Unsupervised Mass Spectrometry Imaging Data Analyses](https://pubs.acs.org/doi/abs/10.1021/acs.analchem.0c04179) (Murta *et al*., 2021). This work compared using most abundant ions and ion list based on prior knowledge for segmentation. It implied that selecting ions based on prior knowledge can result in an easier-to-interpret, potentially more valuable, hypothesis-confirming results.
 
 ### Univariate segmentation
 
